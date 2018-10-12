@@ -1,0 +1,218 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background: #e6ecf0;
+}
+
+.topBar {
+    background: white;
+    height: 46px;
+    position: relative;
+}
+
+.navbarType {
+    font-size: 13px!important;
+    max-height: 46px;
+}
+
+.tweetButton {
+    border: 1px solid #1da1f2;
+    border-radius: 50px;
+    background: #4AB3F4;
+    color: white;
+    height: 70%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tweetButton:hover {
+    background: #1DA1F2;
+    border: 1px solid #1DA1F2;
+}
+
+.searchBar {
+    border-radius: 50px;
+    background: #f5f8fa;
+    border: 1px solid #e6ecf0;
+    position: relative;
+    height: 70%;
+}
+.searchBar:hover {
+    border : 1px solid #1DA1F2;
+    box-shadow: none;
+}
+
+.searchBar:enabled{
+    box-shadow: none;
+}
+
+.searchBar::placeholder {
+    font-size: 12px;
+}
+
+/* Pembagian Kotak */
+
+.leftSec {
+    height: 300px;
+}
+
+.midSec {
+    height: 300px;
+    background: blue;
+}
+
+.rightSec {
+    height: 300px;
+}
+
+/* Profile Kiri */
+.profileScreen {
+    background: blue;
+    height: 95px;
+    margin-top: 10px;
+}
+
+.profileInfo {
+    background: white;
+    height: 118px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.profilePic img {
+    border: 1px white solid;
+    border-radius: 50%;
+    max-width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+.twitterTrend {
+    background: white;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.twitterTrend div {
+    padding: 10px 10px 0 15px;
+}
+
+.twitterTrend .trendTitle {
+    font-size: 18px;
+}
+
+.twitterTrend .changeLink {
+    margin: 10px 10px 0 -25px;
+    vertical-align: bottom;
+    line-height: 1em;
+}
+
+.twitterTrend a, .twitterTrend a:hover {
+    text-decoration: none;
+}
+
+.twitterTrend .trendContent{
+    font-size: 15px;
+}
+.twitterTrend .trendContent:hover {
+    text-decoration: underline;
+}
+
+.twitterTrend .trendTweet {
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Konten */
+
+.midSec {
+    margin-top: 10px;
+    padding-top: 10px;
+    background: #E8F5FD;
+}
+
+.midSec .photoStatus img {
+    max-width: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.midSec .inputStatus {
+    padding-bottom: 30px;
+}
+.midSec .inputStatus input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px rgb(198, 231, 251) solid;
+    padding: 2% 0 2% 2%;
+}
+
+.midSec .inputStatus input::placeholder {
+    font-size: 15px;
+    color: #1DA1F2;
+}
+
+.midSec .tweetStatus {
+    background: white;
+    border-bottom: 1px solid rgb(226, 224, 224);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+    .statusUserName, .statusTimePost {
+        color: rgb(133, 131, 131);
+    }
+
+.midSec .photoTweet {
+    height: 100%;
+}
+
+.midSec .photoTweet img {
+    max-width: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
+.rightSec {
+    margin-top: 10px;
+}
+
+.rightSec .whoToFollow div {
+    padding: 10px 10px 0 15px;
+}
+
+.rightSec .whoToFollow {
+    height: 300px;
+    background: white;
+}
+
+.trendTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.whoLink a {
+    font-size: 12px;
+    vertical-align: baseline;
+}
+
+.userFollow img {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.rightSec .whoToFollow img {
+    max-width: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 10px;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>TwitterClone</title>
+</head>
+<body>
+    <div class="container-fluid topBar">
+    <div class="container">
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-white navbarType">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Notification<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 searchBar" type="search" placeholder="Search Twitter" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 tweetButton" type="submit">Tweet</button>
+                </form>
+                </div>
+            </nav>
+
+        <div class="row">
+            <div class="leftSec col-lg-3 col-md-3 col-sm-12">
+                <div class="profileScreen">
+                </div>
+                <div class="profilePic">
+                    <img src="images/profilepic.jpg">
+                </div>
+                <div class="profileInfo">
+                </div>
+
+                <div class="twitterTrend">
+                    <div class="w-100 row">
+                        <div class="col-10 trendTitle">
+                            <strong>Worldwide trends</strong>
+                        </div>
+                    <span class="col-2 changeLink">
+                            <a href="#"><sub>Change</sub></a>
+                    </span>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">#DayOfTheGirl</span>
+                        <span class="trendTweet d-block">69.4K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">#DünyaKızÇocuklarıGünü</span>
+                        <span class="trendTweet d-block">35.9K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">#امنيه_ودك_تحقق_قريب</span>
+                        <span class="trendTweet d-block">22.7K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">#えっちチャレンジ</span>
+                        <span class="trendTweet d-block">26.8K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">#OTDirecto11OCT</span>
+                        <span class="trendTweet d-block">27.7K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">Soyuz</span>
+                        <span class="trendTweet d-block">29.2K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">Sánchez e Iglesias</span>
+                        <span class="trendTweet d-block">11.5K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">Doug Ellis</span>
+                        <span class="trendTweet d-block">2,678 Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">ブラジル</span>
+                        <span class="trendTweet d-block">21.6K Tweets</span>
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <a href="#">
+                        <span class="trendContent d-block">Fnatic</span>
+                        <span class="trendTweet d-block">6,240 Tweets</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="midSec col-lg-6 col-md-6 col-sm-12">
+                <div class="row">
+                    <div class="photoStatus col-1">
+                        <img src="images/profilepic.jpg">
+                    </div>
+                    <div class="col-11 inputStatus">
+                        <input placeholder="What's Happening?">
+                    </div>
+                </div>
+                <div class="row tweetStatus">
+                    <div class="photoTweet col-1">
+                        <img src="images/ditjenpajakri.jpg">
+                    </div>
+                    <div class="status col-11">
+                        <div class="title">
+                            <span class="statusName">
+                                #PajakUntukKita
+                            </span>
+                            <span class="statusUserName">
+                                @DitjenPajakRI
+                            </span>
+                            <span class="statusTimePost">
+                                2h
+                            </span>
+                        </div>
+                        <div class="statusContent">
+                                Apa sih hal-hal terkait perpajakan yang dibahas dalam #AM2018Bali ? 
+                                <br><br>
+                                Berikut ini ulasannya.
+                                <br><br>
+                                http://www.pajak.go.id/news/imf-2018-nazara-dan-sobagjo-tekankan-pentingnya-pajak-yang-adil-dan-tranparan …                                
+                        </div>
+                    </div>
+                </div>
+                <div class="row tweetStatus">
+                    <div class="photoTweet col-1">
+                        <img src="images/jnecare.jpg">
+                    </div>
+                    <div class="status col-11">
+                        <div class="title">
+                            <span class="statusName">
+                                JNE Customer Care
+                            </span>
+                            <span class="statusUserName">
+                                @JNECare
+                            </span>
+                            <span class="statusTimePost">
+                                3h
+                            </span>
+                        </div>
+                        <div class="statusContent">
+                                Hai malam kak, admin cek no resi tsb paket sdh diterima a.n Johan / keluarga pada tgl 11 Oktober ‘18 jam 13:27, mohon dipastikan dahulu ya kak, jika masih ada kendala silahkan konfirmasi kembali. Trims. ^Denis
+                        </div>
+                    </div>
+                </div>
+                <div class="row tweetStatus">
+                    <div class="photoTweet col-1">
+                        <img src="images/budesumiyati.jpg">
+                    </div>
+                    <div class="status col-11">
+                        <div class="title">
+                            <span class="statusName">
+                                Bidadari
+                            </span>
+                            <span class="statusUserName">
+                                @BudeSumiyati
+                            </span>
+                            <span class="statusTimePost">
+                                1m
+                            </span>
+                        </div>
+                        <div class="statusContent">
+                                Udah mandi pake sunlight masih tetap berlemak.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+          <div class="rightSec col-lg-3 col-md-3 col-sm-12">
+              <div class="whoToFollow">
+                  <div>
+                    <span class="trendTitle">Who to Follow</span>
+                    <span class="whoLink">
+                        ·<a href="#">Refresh</a> 
+                        ·<a href="#">View All</a>
+                    </span>
+                  </div>
+                  <div class="userFollow">
+                    <img src="images/budesumiyati.jpg">
+                  </div>
+              </div>
+          </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>
